@@ -6,7 +6,7 @@ async function Page() {
   if (!user) return null;
 
   const userInfo = {} 
-
+  
   const userData = {
     id: user.id,
     objectId: userInfo?._id,
